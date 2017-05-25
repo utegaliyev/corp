@@ -1,6 +1,3 @@
-# corp
-
-
 import React from 'react'
 import {Card, Row, Col, Tree, TreeNode, Tag} from 'antd';
 import GoogleMapReact from 'google-map-react';
@@ -13,9 +10,9 @@ const structure = [
 					{title: 'УЛ. КАРАСАЙ БАТЫРА, 98'}
 				],
 		atms: [
-				{title: 'УЛ. ФУРМАНОВА, 43/171. VIP-ЦЕНТР', lat: "43.244833" long: " 76.946806" state: 'on'} ,
-				 {title:  'УЛ. ТОЛЕ БИ, 55, УГОЛ УЛ. ПАНФИЛОВА (ОФИС БАНКА)' lat:"43.255167" long: "76.945500" state: "on"} ,
-				 {title:  'ПЛ. РЕСПУБЛИКИ, 13 УГОЛ УЛ. ФУРМАНОВА (ОФИС БАНКА)'  lat: "43.238445" long: "76.943363" state="on"}
+				{title: 'УЛ. ФУРМАНОВА, 43/171. VIP-ЦЕНТР',  lat: '43.244833', long: '76.946806', state:'on'} ,
+				 {title:  'УЛ. ТОЛЕ БИ, 55, УГОЛ УЛ. ПАНФИЛОВА (ОФИС БАНКА)', lat:"43.255167", long: "76.945500", state: "on"} ,
+				 {title:  'ПЛ. РЕСПУБЛИКИ, 13 УГОЛ УЛ. ФУРМАНОВА (ОФИС БАНКА)',  lat: "43.238445", long: "76.943363", state:"on"}
 			]
 },
 {
@@ -25,8 +22,8 @@ const structure = [
 					{title: 'ПР. РЕСПУБЛИКИ, 10.'}
 				],
 		atms: [
-				{title: 'УЛ. ДОСТЫК, 5 (КОМПЛЕКС «СЕВЕРНОЕ СИЯНИЕ»)', lat="51.145861" long="71.413056" state="on"} ,
-				 {title: 'КОРГАЛДЖИНСКОЕ ШОССЕ, 1. ТРЦ "MEGA ASTANA"', lat="51.145861" long="71.413056" state="on"}
+				{title: 'УЛ. ДОСТЫК, 5 (КОМПЛЕКС «СЕВЕРНОЕ СИЯНИЕ»)', lat: "51.145861", long: "71.413056", state: "on"} ,
+				 {title: 'КОРГАЛДЖИНСКОЕ ШОССЕ, 1. ТРЦ "MEGA ASTANA"', lat: "51.145861", long: "71.413056", state: "on"}
 				]
 }
 
@@ -83,7 +80,6 @@ const MapComponent = () => (
 );
 
 export default MapComponent;
-
 
 
 
